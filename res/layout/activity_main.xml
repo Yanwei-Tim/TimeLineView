@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:timeline="http://schemas.android.com/apk/res/com.zms.timelineview"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <com.zms.timelineview.TimeLineView
+        android:id="@+id/timeLineView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        timeline:timelineCount="10" />
+
+</RelativeLayout>
